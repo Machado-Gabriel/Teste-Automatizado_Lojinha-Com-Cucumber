@@ -2,6 +2,7 @@
 
 Funcionalidade: Login
 
+  @Login
   Cenário: Realizar Login
     Dado que esteja na página da lojinha
     Quando o login for realizado com os seguintes dados
@@ -10,7 +11,7 @@ Funcionalidade: Login
     Entao valido que o login foi executado
 
   @loginEsquema
-  Esquema do Cenario: Realiz Login com <usuario>
+  Esquema do Cenario: Realizar Login com <usuario>
     Dado que esteja na página da lojinha
     Quando o login for realizado com os seguintes dados
       | usuario | <usuario> |

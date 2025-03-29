@@ -7,11 +7,10 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         features = "src/test/resources/features",
-        tags = "@loginEsquema", // escolher test que irá executar
-        glue = "steps", //caminho dos passos que criamos
+        tags = "@Login",
+        glue = "br.com.chronos.steps",
         snippets = CucumberOptions.SnippetType.CAMELCASE
 )
 public class runnerTest {
-
 
 }
